@@ -9,6 +9,7 @@
 	  <PackageProjectUrl>https://github.com/fwaris/TfCheckpoint</PackageProjectUrl>
 	  <PackageReadmeFile>README.md</PackageReadmeFile>
 	  <RepositoryUrl>https://github.com/fwaris/TfCheckpoint</RepositoryUrl>
+	  <Authors>Faisal Waris</Authors>
 	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
