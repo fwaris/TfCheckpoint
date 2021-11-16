@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Remove="C:\Users\fwaris1\.nuget\packages\fsharp.core\6.0.1\contentFiles\any\netstandard2.1\FSharp.Core.xml" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="scripts\Packages.fsx" />
+		<None Include="scripts\testproto.fsx" />
+		<None Include="scripts\BertTest.fsx" />
+		<Protobuf Include="tensorflow/core/framework/tensor_shape.proto" GrpcServices="None" />
+		<Protobuf Include="tensorflow/core/framework/tensor_slice.proto" GrpcServices="None" />
+		<Protobuf Include="tensorflow/core/framework/types.proto" GrpcServices="None" />
+		<Protobuf Include="tensorflow/core/framework/versions.proto" GrpcServices="None" />
+		<Protobuf Include="tensorflow\core\protobuf\tensor_bundle.proto" GrpcServices="None" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Grpc-FSharp.Tools" Version="0.1.1">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Protobuf.FSharp" Version="0.1.3" />
+		<PackageReference Include="FSharp.Core" Version="*" />
+	</ItemGroup>
+
+</Project>

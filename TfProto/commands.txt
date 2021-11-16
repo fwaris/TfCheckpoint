@@ -1,0 +1,4 @@
+C:\Users\fwaris1\.nuget\packages\google.protobuf.tools\3.19.1\tools\windows_x64\protoc.exe --csharp_opt=file_extension=.g.cs,base_namespace=Tensorflow.TfBundleProto --csharp_out=../TfBundleProto tensorflow/core/protobuf/tensor_bundle.proto
+
+
+C:\Users\fwaris1\.nuget\packages\google.protobuf.tools\3.19.1\tools\windows_x64\protoc.exe --csharp_opt=file_extension=.g.cs --csharp_out=../TfBundleProto tensorflow/core/protobuf/tensor_bundle.proto
