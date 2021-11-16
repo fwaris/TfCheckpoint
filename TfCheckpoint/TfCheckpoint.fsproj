@@ -4,9 +4,19 @@
     <TargetFramework>net5.0</TargetFramework>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
 	  <LangVersion>preview</LangVersion>
+	  <Copyright>Copyright © 2021</Copyright>
+	  <Description>Extract tensor data from Tensorflow checkpoint format</Description>
+	  <PackageProjectUrl>https://github.com/fwaris/TfCheckpoint</PackageProjectUrl>
+	  <PackageReadmeFile>README.md</PackageReadmeFile>
+	  <RepositoryUrl>https://github.com/fwaris/TfCheckpoint</RepositoryUrl>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
     <None Include="scripts\Packages.fsx" />
     <None Include="scripts\Test.fsx" />
     <Compile Include="CheckPointIndexReader.fs" />
